@@ -1,0 +1,1 @@
+export const POST_METHOD_LOGIN = "POST_METHOD_LOGIN";
