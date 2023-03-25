@@ -8,12 +8,13 @@ import Student from "./components/Student";
 import Profile from "./components/Profile";
 import Adduser from "./components/Adduser";
 import Addstu from "./components/Addstu";
+import Login from "./components/login/Login";
 
 function App() {
   return (
    <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Nav />}>
+      <Route path="/" element={<Login />}>
       <Route path="/Dashboard" element={<Dashboard />} />
       <Route path="/User" element={<User />} />
       <Route path="/Adduser" element={<Adduser />} />
